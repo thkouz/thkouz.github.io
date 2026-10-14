@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thodoris Kouzelis</title>
+  <title>Theodoros Kouzelis</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -14,11 +14,11 @@
   <div class="page">
 
     <div class="topbar">
-      <a class="name-tag" href="index.html">Thodoris Kouzelis</a>
+      <a class="name-tag" href="index.html">Theodoros Kouzelis</a>
     </div>
 
     <nav class="nav">
-      <a href="index.html">Bio</a>
+      <a href="index.html" aria-current="page">Bio</a>
       <a href="publications.html">Publications</a>
       <a href="https://scholar.google.com/citations?user=a5vkWc8AAAAJ&hl=en">Google Scholar</a>
       <a href="cv2026.pdf" target="_blank" rel="noopener noreferrer">CV</a>
@@ -30,11 +30,38 @@
     <section id="bio">
       <h2>Welcome!</h2>
       <p>
-        I am a 2nd year PhD student at the National Technical University of Athens and a research fellow at <a href="https://archimedesai.gr/">Archimedes AI</a>, advised by <a href="https://scholar.google.com/citations?user=xCPoT4EAAAAJ&hl=en">Nikos Komodakis</a>. I recently interned at <a href="https://runwayml.com/">Runway AI</a> with <a href="https://granskog.xyz/">Jon Granskog</a>. Not so long ago, I obtained my Diploma in Electrical and Computer Engineering from the same university.
+        I am a 3rd year PhD student at the National Technical University of Athens and a research fellow at <a href="https://archimedesai.gr/">Archimedes AI</a>, advised by <a href="https://scholar.google.com/citations?user=xCPoT4EAAAAJ&hl=en">Nikos Komodakis</a> and <a href="https://gidariss.github.io/">Spyros Gidaris</a>. Last year, I interned at <a href="https://runwayml.com/">Runway</a> with <a href="https://granskog.xyz/">Jon Granskog</a>. Not so long ago, I obtained my Diploma in Electrical and Computer Engineering from the same university.
       </p>
       <p>
       My research sits at the intersection of Generative Modeling and Representation Learning. These days, I mostly play around with diffusion models — both image and language.
     </p>
+    </section>
+
+    <section id="selected-publications" class="section">
+      <h2>Selected Publications</h2>
+      <ul class="pub-list">
+        <li>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2604.17492">Coevolving Representations in Joint Image-Feature Diffusion</a></p>
+          <p class="pub-meta"><span class="me">T. Kouzelis</span>, S. Gidaris, N. Komodakis &middot; <span class="pub-venue">ECCV 2026</span></p>
+          <img class="pub-teaser" src="img/coredi.webp" alt="Teaser: diffusion features evolving over training steps" loading="lazy" />
+        </li>
+        <li>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2504.16064">Boosting Generative Image Modeling via Joint Image-Feature Synthesis</a></p>
+          <p class="pub-meta"><span class="me">T. Kouzelis</span>, E. Karypidis, I. Kakogeorgiou, S. Gidaris, N. Komodakis &middot; <span class="pub-venue">NeurIPS 2025</span> <span class="pub-tag hot">Spotlight</span></p>
+          <img class="pub-teaser" src="img/redi.webp" alt="Teaser: joint image and DINO feature diffusion" loading="lazy" />
+        </li>
+        <li>
+          <p class="pub-title"><a href="https://arxiv.org/abs/2502.09509">EQ-VAE: Equivariance Regularized Latent Space for Improved Generative Image Modeling</a></p>
+          <p class="pub-meta"><span class="me">T. Kouzelis</span>, I. Kakogeorgiou, S. Gidaris, N. Komodakis &middot; <span class="pub-venue">ICML 2025</span></p>
+          <img class="pub-teaser" src="img/eqvae.webp" alt="Teaser: latent space comparison and training speed-up" loading="lazy" />
+        </li>
+      </ul>
+      <a class="more-link" href="publications.html">All publications &rarr;</a>
+    </section>
+
+    <footer>
+      <span class="hint">click the background to launch a glider</span>
+    </footer>
 
   </div>
   <script src="life.js"></script>
